@@ -61,7 +61,7 @@ const Content = () => {
             type="button"
             className="btn btn-danger"
             onClick={onDeleteSelectedItems}
-                >
+        >
             Delete Selected Items
          </button>
        </div>

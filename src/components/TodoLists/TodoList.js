@@ -18,9 +18,11 @@ export const TodoList = ({ todoList, onDeleteTask, onToggleTaskSelection, onEdit
                             onChange={() => onToggleTaskSelection(index, !item.isChecked)}
                         />
                     </td>
+
                     <td className="col-md-8">
                         <p style={{textDecoration: item.isChecked ? 'line-through' : ''}}>{item.task}</p>
                     </td>
+                    
                     <td className="col-md-3" style={{paddingLeft:"15%"}}>
                     <span>
                     <BsPencil onClick={() => onEditTask(index)} data-bs-toggle="modal" data-bs-target="editTaskModal" className="editIcon" />

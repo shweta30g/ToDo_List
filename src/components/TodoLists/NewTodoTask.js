@@ -34,7 +34,7 @@ export const NewTodoTask = ({ addTodoTask }) => {
                         onClick={addNewTask}
                         disabled={!task}
                     >
-                        Add
+                        Add 
                     </button>
                 </div>
             </form>
